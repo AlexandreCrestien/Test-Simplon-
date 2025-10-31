@@ -18,7 +18,7 @@ figureVentesParProduit.write_html('ventes-par-produit.html')
 print('ventes-par-produit.html généré avec succès !')
 
 
-figureChiffreAffaire = px.pie(données, values='prix_total', names='produit', title='Chiffre d’affaires par produit (€)')
+figureChiffreAffaire = px.pie(données, values='prix_total', names='produit', title='Chiffre d’affaires par produit')
 
 figureChiffreAffaire.write_html('chiffre-affaires-par-produit.html')
 
